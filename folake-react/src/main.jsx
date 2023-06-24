@@ -6,7 +6,7 @@ import Header from './components/Header.jsx';
 import Footer from './components/Header.jsx';
 import './index.css'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
-import Detailed from './components/detailed.jsx';
+import Detailed from './components/Detailed.jsx';
 
 const router = createBrowserRouter([
 {

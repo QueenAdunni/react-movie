@@ -19,7 +19,7 @@ import wazirs from './assets/images/wazir.png'
 import parties from './assets/images/party.png'
 import spideers from './assets/images/spider3.png'
 import nasas from './assets/images/nasa.png'
-import Detailed from "./components/detailed";
+import Detailed from "./components/Detailed.jsx";
 
 
 
