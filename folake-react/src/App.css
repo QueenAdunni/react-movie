@@ -1,0 +1,281 @@
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+
+img{
+  height: 400px;
+  width: 200px;
+}
+
+.hero{
+  background-image: url(./assets/images/bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 900px;
+}
+
+Header button{
+  background: none;
+  color: #ccff00;
+  border: 2px solid #ccff00; 
+  border-radius: 50px;
+  padding: 5px 30px;
+}
+
+i {
+  color: #ccff00;
+}
+
+
+header a{
+  color: white !important;
+}
+
+.hero h4{
+  color: #ccff00 !important;
+}
+
+.hero h1{
+  color: white;
+}
+
+.hero ul{
+  color: white;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-left: -30px;
+}
+
+.hero ul li{
+  list-style: none;
+  margin-right: 20px;
+}
+
+.hero .li1{
+background-color: white;
+color: black;
+padding: 5px 10px;
+}
+
+.hero .li2{
+  border: 1px solid white;
+  padding:  5px 10px;
+}
+
+.hero button{
+  background: none;
+  color: #ccff00;
+  border: 2px solid #ccff00; 
+  border-radius: 50px;
+  padding: 5px 20px;
+  margin-top: 20px;
+}
+
+.upcoming{
+  background-image: url(assets/images/Rectangle31.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.upcoming .tag{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.upcoming ul{
+  display: flex;
+}
+
+.upcoming ul li{
+  align-items: center;
+  list-style: none;
+  margin-right: 20px;
+  background: rgba(46, 46, 46, 0.96);
+  border-radius: 24px;
+padding: 5px 30px;
+}
+
+.upcoming .title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.upcoming .type {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+
+
+.content{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+
+.content img {
+  width: 305px;
+  height: 200px;
+}
+
+.upcoming .slide{
+padding: 0;
+margin: 0;
+display: flex;
+width: 100%;
+overflow-x: auto;
+white-space: nowrap;
+}
+
+.upcoming .slide::-webkit-scrollbar{
+  background-color: #ccff00;
+  height: 0;
+
+}
+
+.upcoming .slide li{
+  position: sticky;
+  left: 0;
+  padding: 0 10px;
+  display: inline-block;
+  padding-bottom: 1.5rem;
+  margin-left: -4px;
+}
+
+.hero-content{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+
+
+.upcoming .slide{
+  padding: 0;
+  margin: 0;
+  display: flex;
+  width: 100%;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+  
+.upcoming .slide::-webkit-scrollbar{
+    background-color: #ccff00;
+    height: 0;
+}
+
+
+
+
+  
+.upcoming .slide li{
+    position: sticky;
+    left: 0;
+    padding: 0 10px;
+    display: inline-block;
+    padding-bottom: 1.5rem;
+    margin-left: -4px;
+  }
+
+
+
+
+.hero-details {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-details .movies{
+  display: flex;
+  justify-content: start;
+  list-style: none;
+  margin-left: -30px;
+  align-items: center;
+  color: #fff;
+}
+
+.hero-details .movies li{
+  margin-right: 20px;
+}
+
+.movies .li2{
+  border: 3px solid white;
+  color: white;
+  padding:  5px 10px;
+}
+
+.movies .li1{
+  background-color: white;
+  color: #000;
+  padding: 5px 10px;
+}
+
+
+.fill{
+  display: flex;
+  justify-content: space-evenly;
+  width: 500px;
+  background-color: rgba(63, 63, 63, 0.44);
+  border-radius:10px;
+  padding: 15px 20px;
+}
+
+.blink {
+            animation: blinker 1.5s linear infinite;
+            color: yellow;
+            font-family: sans-serif;
+        }
+        @keyframes blinker {
+            50% {
+                opacity: 0;
+            }
+        }
+
+
+
+
+
+.fill  button{
+  background:black;
+  color:#ccff00;
+  border: 2px solid #ccff00; 
+  border-radius:50px;
+  padding: 0 40px;
+}
+
+
+.hero-details .fill ul{
+  list-style: none;
+  color: #fff;
+  
+}
+
+.fill .share i {
+  color: white;
+  font-size: 25px;
+}
+
+.fill .star i {
+  color: white;
+  font-size: 25px;
+}
+
+
+ footer ul li{
+  align-items: center;
+  list-style: none !important;
+  margin-right: 0px !important;
+  background: transparent !important;
+  border-radius: 0px !important;
+padding: 5px 30px;
+}
